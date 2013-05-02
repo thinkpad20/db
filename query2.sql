@@ -14,4 +14,13 @@ SELECT *
 
 SELECT content
 	FROM HashTag
-	WHERE userID = 
+	WHERE tweetID > 5;
+
+SELECT senderID, receiverID, content
+	FROM Message
+	WHERE messageID < 100 AND receiverID > senderID
+	LIMIT 3;
+
+SELECT distinct *
+	FROM Retweets, Favorites, CanSee, Mentions
+	WHERE userID = 1;
