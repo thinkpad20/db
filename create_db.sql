@@ -41,14 +41,14 @@ CREATE TABLE Retweets (
 	TIMESTAMP						NOT NULL,
 	PRIMARY KEY (userID, tweetID),
 	FOREIGN KEY (userID) REFERENCES User(userID),
-	FOREIGN KEY (tweetID) REFERENCES User(tweetID)
+	FOREIGN KEY (tweetID) REFERENCES Tweet(tweetID)
 );
 
 CREATE TABLE Mentions (
 	tweetID INTEGER 				NOT NULL,
 	userID INTEGER 					NOT NULL,
 	PRIMARY KEY (tweetID, userID),
-	FOREIGN KEY (tweetID) REFERENCES User(tweetID),
+	FOREIGN KEY (tweetID) REFERENCES Tweet(tweetID),
 	FOREIGN KEY (userID) REFERENCES User(userID)
 );
 
@@ -56,7 +56,7 @@ CREATE TABLE Favorites (
 	tweetID INTEGER 				NOT NULL,
 	userID INTEGER 					NOT NULL,
 	PRIMARY KEY (tweetID, userID),
-	FOREIGN KEY (tweetID) REFERENCES User(tweetID),
+	FOREIGN KEY (tweetID) REFERENCES Tweet(tweetID),
 	FOREIGN KEY (userID) REFERENCES User(userID)
 );
 
@@ -64,7 +64,7 @@ CREATE TABLE CanSee (
 	tweetID INTEGER				 	NOT NULL,
 	userID INTEGER 					NOT NULL,
 	PRIMARY KEY (tweetID, userID),
-	FOREIGN KEY (tweetID) REFERENCES User(tweetID),
+	FOREIGN KEY (tweetID) REFERENCES Tweet(tweetID),
 	FOREIGN KEY (userID) REFERENCES User(userID)
 );
 
