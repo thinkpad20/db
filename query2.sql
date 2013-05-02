@@ -23,4 +23,4 @@ SELECT senderID, receiverID, content
 
 SELECT distinct *
 	FROM Retweets, Favorites, CanSee, Mentions
-	WHERE userID = 1;
+	WHERE Retweets.userID = 1 AND Favorites.userID = 2 AND CanSee.userID = 3 AND Mentions.userID = 4;

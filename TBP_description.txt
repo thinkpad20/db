@@ -1,0 +1,7 @@
+Twitter Basic Plus is a Microblogging site, where users can post their thoughts in small (140 character) fragments ("tweets"), and can choose to follow the tweets of their friends or others in whom they have interest. The small-message format allows for fast-paced reading, and encourages (requires!) posters to be brief.
+
+The structure of the website is laid out in the attached ERD diagram, but is loosely described here.
+
+The two fundamental units are users and tweets. A user is someone who can make tweets. The database stores information specific to a user, such as his username, full name, tagline (a 140 character description), password (in a hashed form) and the URLs of an image and a facebook page. The user also has a list of other users that he follows, meaning that those users' tweets will show up in his feed.
+
+A tweet is a 140-or-less character message. At its most basic, it only stores the user who made it, its ID, its time stamp, and what the user posted. Based on the content of the tweet, however, several more relationships and entities can be constructed, such as mentions (where another user's name is written preceeded by an @), hashtags (any piece of text containing no spaces and beginning with a #), retweets (where a user has broadcast a tweet he likes to his followers, without explicitly "tweeting it"), and others.
