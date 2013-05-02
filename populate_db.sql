@@ -1,53 +1,53 @@
 LOAD DATA
-LOCAL INFILE "users.txt"
+LOCAL INFILE "users.dat"
 REPLACE INTO TABLE User
 FIELDS TERMINATED BY '|'
 (username, userID, fullName, passwordHash, email, imageURL, facebookURL, tagline);
 
 LOAD DATA
-LOCAL INFILE "tweets.txt"
+LOCAL INFILE "tweets.dat"
 REPLACE INTO TABLE Tweet
 FIELDS TERMINATED BY '|'
 (tweetID, userID, content);
 
 LOAD DATA
-LOCAL INFILE "hashtags.txt"
-REPLACE INTO TABLE Hashtag
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
 FIELDS TERMINATED BY '|'
 (tweetID, content);
 
 LOAD DATA
-LOCAL INFILE "follows.txt"
+LOCAL INFILE "follows.dat"
 REPLACE INTO TABLE Follows
 FIELDS TERMINATED BY '|'
 (follower, followee);
 
 LOAD DATA
-LOCAL INFILE "retweets.txt"
+LOCAL INFILE "retweets.dat"
 REPLACE INTO TABLE Retweets
 FIELDS TERMINATED BY '|'
 (tweetID, userID);
 
 LOAD DATA
-LOCAL INFILE "mentions.txt"
+LOCAL INFILE "mentions.dat"
 REPLACE INTO TABLE Mentions
 FIELDS TERMINATED BY '|'
 (tweetID, userID);
 
 LOAD DATA
-LOCAL INFILE "favorites.txt"
+LOCAL INFILE "favorites.dat"
 REPLACE INTO TABLE Favorites
 FIELDS TERMINATED BY '|'
 (tweetID, userID);
 
 LOAD DATA
-LOCAL INFILE "cansee.txt"
+LOCAL INFILE "cansee.dat"
 REPLACE INTO TABLE CanSee
 FIELDS TERMINATED BY '|'
 (tweetID, userID);
 
 LOAD DATA
-LOCAL INFILE "messages.txt"
+LOCAL INFILE "messages.dat"
 REPLACE INTO TABLE Message
 FIELDS TERMINATED BY '|'
 (messageID, senderID, receiverID, content);

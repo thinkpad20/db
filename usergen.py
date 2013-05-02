@@ -7,6 +7,7 @@ ptext = "LOAD DATA\n" + "LOCAL INFILE \"%s\"\n" + \
 
 uid = 0
 tid = 0
+mid = 0
 
 def rand_str(N):
 		return ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(N))
@@ -75,7 +76,9 @@ class Message:
 	receiverID = 0
 	content = "content"
 	def randomize(self):
-		global uid
+		global uid, mid
+		self.messageID = mid
+		mid += 1
 		self.content = "content" + rand_str(100)
 		self.senderID = random.randrange(uid)
 		self.receiverID = random.randrange(uid)
@@ -86,7 +89,7 @@ class Message:
 # USERS
 #####################
 
-f = open("users.txt", "w")
+f = open("users.dat", "w")
 
 for i in range(0,10):
 	u = User()
@@ -94,55 +97,55 @@ for i in range(0,10):
 	f.write(u.username + '|' + str(u.userID) + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
 			'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '\n')
 
-populateDB.write(ptext % ("users.txt", "User", "username, userID, fullName, " +
+populateDB.write(ptext % ("users.dat", "User", "username, userID, fullName, " +
 								"passwordHash, email, imageURL, facebookURL, tagline"))
 
 ##################
 # TWEETS
 #####################
 
-f = open("tweets.txt", "w")
+f = open("tweets.dat", "w")
 
 for i in range(0,50):
 	t = Tweet()
 	t.randomize()
 	f.write(str(t.tweetID) + '|' + str(t.userID) + '|' + t.content + '\n')
 
-populateDB.write(ptext % ("tweets.txt", "Tweet", "tweetID, userID, content"))
+populateDB.write(ptext % ("tweets.dat", "Tweet", "tweetID, userID, content"))
 
 ##################
 # HASHTAGS
 #####################
 
-f = open("hashtags.txt", "w")
+f = open("hashtags.dat", "w")
 
 for i in range(0,10):
 	h = Hashtag()
 	h.randomize()
 	f.write(str(h.tweetID) + '|' + h.content + '\n')
 
-populateDB.write(ptext % ("hashtags.txt", "HashTag", "tweetID, content"))
+populateDB.write(ptext % ("hashtags.dat", "HashTag", "tweetID, content"))
 
 ##################
 # FOLLOWS
 #####################
 
-f = open("follows.txt", "w")
+f = open("follows.dat", "w")
 
 for i in range(0,15):
 	fo = Follows()
 	fo.randomize()
 	f.write(str(fo.follower) + '|' + str(fo.followee) + '\n')
 
-populateDB.write(ptext % ("follows.txt", "Follows", "follower, followee"))
+populateDB.write(ptext % ("follows.dat", "Follows", "follower, followee"))
 
 ##################
 # Retweets, etc
 #####################
 
-schema = {"retweets.txt":"Retweets", "mentions.txt":"Mentions", "favorites.txt":"Favorites", "cansee.txt":"CanSee"}
+schema = {"retweets.dat":"Retweets", "mentions.dat":"Mentions", "favorites.dat":"Favorites", "cansee.dat":"CanSee"}
 
-for filename in ["retweets.txt", "mentions.txt", "favorites.txt", "cansee.txt"]:
+for filename in ["retweets.dat", "mentions.dat", "favorites.dat", "cansee.dat"]:
 	f = open(filename, "w")
 	for i in range(0,15):
 		fo = RetweetsMentionsFavoritesCanSee()
@@ -154,12 +157,12 @@ for filename in ["retweets.txt", "mentions.txt", "favorites.txt", "cansee.txt"]:
 # Messages
 #####################
 
-f = open("messages.txt", "w")
+f = open("messages.dat", "w")
 for i in range(0,15):
 	fo = Message()
 	fo.randomize()
-	f.write(str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
-populateDB.write(ptext % ("messages.txt", "Message", "messageID, senderID, receiverID, content"))
+	f.write(str(fo.messageID) + '|' + str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
+populateDB.write(ptext % ("messages.dat", "Message", "messageID, senderID, receiverID, content"))
 
 
 
