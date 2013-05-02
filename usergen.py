@@ -1,9 +1,9 @@
 import random, string
 
 populateDB = open("populate_db.sql", "w")
-ptext = "LOAD DATA\n" + "LOCAL INFILE \"~/Documents/%s\"\n" + \
+ptext = "LOAD DATA\n" + "LOCAL INFILE \"%s\"\n" + \
 		"REPLACE INTO TABLE %s\n" + "FIELDS TERMINATED BY '|'\n" \
-		"(%s)\n\n"
+		"(%s);\n\n"
 
 uid = 0
 tid = 0
