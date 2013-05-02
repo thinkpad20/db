@@ -15,7 +15,7 @@ CREATE TABLE Tweet (
 	tweetID INTEGER 				NOT NULL,
 	userID INTEGER	 				NOT NULL,
 	content VARCHAR(140)			NOT NULL,
-	TIMESTAMP			 			NOT NULL,
+	dateTime TIMESTAMP			 	NOT NULL,
 	PRIMARY KEY (tweetID),
 	FOREIGN KEY (userID) REFERENCES User(userID)
 );
@@ -38,7 +38,7 @@ CREATE TABLE Follows (
 CREATE TABLE Retweets (
 	tweetID INTEGER 				NOT NULL,
 	userID INTEGER 					NOT NULL,
-	TIMESTAMP						NOT NULL,
+	dateTime TIMESTAMP				NOT NULL,
 	PRIMARY KEY (userID, tweetID),
 	FOREIGN KEY (userID) REFERENCES User(userID),
 	FOREIGN KEY (tweetID) REFERENCES Tweet(tweetID)
@@ -73,7 +73,7 @@ CREATE TABLE Message (
 	senderID INTEGER 				NOT NULL,
 	receiverID INTEGER	 			NOT NULL,
 	content VARCHAR(140)			NOT NULL,
-	TIMESTAMP			 			NOT NULL,
+	dateTime TIMESTAMP			 	NOT NULL,
 	PRIMARY KEY (messageID),
 	FOREIGN KEY (senderID) REFERENCES User(userID),
 	FOREIGN KEY (receiverID) REFERENCES User(userID)
