@@ -1,5 +1,10 @@
 import random, string
 
+populateDB = open("populate_db.sql", "w")
+ptext = "LOAD DATA\n" + "LOCAL INFILE \"~/Documents/%s\"\n" + \
+		"REPLACE INTO TABLE %s\n" + "FIELDS TERMINATED BY '|'\n" \
+		"(%s)\n\n"
+
 uid = 0
 tid = 0
 
@@ -77,6 +82,10 @@ class Message:
 		while (self.senderID == self.receiverID):
 			self.senderID = random.randrange(uid)
 
+##################
+# USERS
+#####################
+
 f = open("users.txt", "w")
 
 for i in range(0,10):
@@ -85,12 +94,25 @@ for i in range(0,10):
 	f.write(u.username + '|' + str(u.userID) + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
 			'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '\n')
 
+populateDB.write(ptext % ("users.txt", "User", "username, userID, fullName, " +
+								"passwordHash, email, imageURL, facebookURL, tagline"))
+
+##################
+# TWEETS
+#####################
+
 f = open("tweets.txt", "w")
 
 for i in range(0,50):
 	t = Tweet()
 	t.randomize()
 	f.write(str(t.tweetID) + '|' + str(t.userID) + '|' + t.content + '\n')
+
+populateDB.write(ptext % ("tweets.txt", "Tweet", "tweetID, userID, content"))
+
+##################
+# HASHTAGS
+#####################
 
 f = open("hashtags.txt", "w")
 
@@ -99,6 +121,12 @@ for i in range(0,10):
 	h.randomize()
 	f.write(str(h.tweetID) + '|' + h.content + '\n')
 
+populateDB.write(ptext % ("hashtags.txt", "Hashtag", "tweetID, content"))
+
+##################
+# FOLLOWS
+#####################
+
 f = open("follows.txt", "w")
 
 for i in range(0,15):
@@ -106,16 +134,40 @@ for i in range(0,15):
 	fo.randomize()
 	f.write(str(fo.follower) + '|' + str(fo.followee) + '\n')
 
+populateDB.write(ptext % ("follows.txt", "Follows", "follower, followee"))
+
+##################
+# Retweets, etc
+#####################
+
+schema = {"retweets.txt":"Retweets", "mentions.txt":"Mentions", "favorites.txt":"Favorites", "cansee.txt":"CanSee"}
+
 for filename in ["retweets.txt", "mentions.txt", "favorites.txt", "cansee.txt"]:
 	f = open(filename, "w")
 	for i in range(0,15):
 		fo = RetweetsMentionsFavoritesCanSee()
 		fo.randomize()
 		f.write(str(fo.tweetID) + '|' + str(fo.userID) + '\n')
+	populateDB.write(ptext % (filename, schema[filename], "tweetID, userID"))
+
+##################
+# Messages
+#####################
 
 f = open("messages.txt", "w")
-
 for i in range(0,15):
 	fo = Message()
 	fo.randomize()
 	f.write(str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
+populateDB.write(ptext % ("messages.txt", "Message", "messageID, senderID, receiverID, content"))
+
+
+
+
+
+
+
+
+
+
+

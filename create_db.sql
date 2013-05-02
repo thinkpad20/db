@@ -36,8 +36,8 @@ CREATE TABLE Follows (
 );
 
 CREATE TABLE Retweets (
-	userID INTEGER 					NOT NULL,
 	tweetID INTEGER 				NOT NULL,
+	userID INTEGER 					NOT NULL,
 	TIMESTAMP						NOT NULL,
 	PRIMARY KEY (userID, tweetID),
 	FOREIGN KEY (userID) REFERENCES User(userID),
