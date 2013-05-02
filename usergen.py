@@ -121,7 +121,7 @@ for i in range(0,10):
 	h.randomize()
 	f.write(str(h.tweetID) + '|' + h.content + '\n')
 
-populateDB.write(ptext % ("hashtags.txt", "Hashtag", "tweetID, content"))
+populateDB.write(ptext % ("hashtags.txt", "HashTag", "tweetID, content"))
 
 ##################
 # FOLLOWS
