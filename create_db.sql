@@ -75,6 +75,6 @@ CREATE TABLE Message (
 	content VARCHAR(140)			NOT NULL,
 	TIMESTAMP			 			NOT NULL,
 	PRIMARY KEY (messageID),
-	FOREIGN KEY (senderID) REFERENCES User(userID)
+	FOREIGN KEY (senderID) REFERENCES User(userID),
 	FOREIGN KEY (receiverID) REFERENCES User(userID)
 );
