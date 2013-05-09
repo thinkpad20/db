@@ -1,0 +1,5 @@
+ALTER TABLE User
+	ADD age INTEGER;
+
+ALTER TABLE User
+	ADD sex VARCHAR(10);
