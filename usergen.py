@@ -16,7 +16,29 @@ NUM_HASHTAGS = 1000
 NUM_MISC = 100
 NUM_FOLLOWS = 1500
 NUM_MESSAGES = 1000
+
+hashtags = {}
 usernames = {}
+def generateUsers(NUM_USERS):
+	f = open("users.dat", "w")
+
+	for i in range(0,NUM_USERS):
+		u = User()
+		u.randomize()
+		f.write(u.username + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
+				'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '|' + u.city + '|' + u.state + '\n')
+
+	populateDB.write(ptext % ("users.dat", "User", "username, fullName, " +
+									"passwordHash, email, imageURL, facebookURL, tagline, city, state"))
+
+def generateHashtags():
+	f = open("hashtags.dat", "w")
+
+	for key in hashtags.keys():
+		for tweetID in hashtags[key]:
+			f.write(str(tweetID) + '|' + key + '\n')
+			populateDB.write(ptext % ("hashtags.dat", "HashTag", "tweetID, content"))
+
 
 def rand_str(N, spaces = False):
 	global words
@@ -29,6 +51,25 @@ def rand_str(N, spaces = False):
 		l = len(output)
 	if spaces:
 		output = output[:-1] + "."
+	return output
+
+def rand_tweet(tweetID):
+	global words
+	output = random.choice(words)
+	l = len(output)
+	targetlen = random.randrange(20, 140)
+	while l < targetlen:
+		newWord = random.choice(words)
+		if random.choice(range(100)) == 0:
+			# add a hashtag here
+			newWord = "#" + newWord
+			if newWord in hashtags:
+				hashtags[newWord] += [tweetID]
+			else:
+				hashtags[newWord] = [tweetID]
+		output += newWord + " "
+		l = len(output)
+	output = output[:-1] + "."
 	return output
 
 words = []
@@ -82,7 +123,7 @@ class Tweet:
 		self.tweetID = tid
 		tid += 1
 		self.userID = random.randrange(1, uid)
-		self.content = rand_str(random.randrange(140), True)
+		self.content = rand_tweet(self.tweetID)
 
 class Hashtag:
 	tweetID = 0
@@ -149,18 +190,7 @@ def generateData():
 	##################
 	# USERS
 	#####################
-
-	f = open("users.dat", "w")
-
-	for i in range(0,NUM_USERS):
-		u = User()
-		u.randomize()
-		f.write(u.username + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
-				'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '|' + u.city + '|' + u.state + '\n')
-
-	populateDB.write(ptext % ("users.dat", "User", "username, fullName, " +
-									"passwordHash, email, imageURL, facebookURL, tagline, city, state"))
-
+	generateUsers(NUM_USERS)
 	##################
 	# TWEETS
 	#####################
@@ -177,16 +207,7 @@ def generateData():
 	##################
 	# HASHTAGS
 	#####################
-
-	f = open("hashtags.dat", "w")
-
-	for i in range(0,NUM_HASHTAGS):
-		h = Hashtag()
-		h.randomize()
-		f.write(str(h.tweetID) + '|' + h.content + '\n')
-
-	populateDB.write(ptext % ("hashtags.dat", "HashTag", "tweetID, content"))
-
+	generateHashtags()
 	##################
 	# FOLLOWS
 	#####################

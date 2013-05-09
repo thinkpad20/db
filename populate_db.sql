@@ -23,6 +23,5292 @@ FIELDS TERMINATED BY '|'
 (tweetID, content);
 
 LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
+LOCAL INFILE "hashtags.dat"
+REPLACE INTO TABLE HashTag
+FIELDS TERMINATED BY '|'
+(tweetID, content);
+
+LOAD DATA
 LOCAL INFILE "follows.dat"
 REPLACE INTO TABLE Follows
 FIELDS TERMINATED BY '|'
