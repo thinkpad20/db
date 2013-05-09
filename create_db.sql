@@ -1,5 +1,5 @@
 CREATE TABLE User (
-	username 		VARCHAR(20) 	NOT NULL,
+	username 		VARCHAR(50) 	NOT NULL UNIQUE,
 	userID 			INTEGER			NOT NULL AUTO_INCREMENT,
 	fullName 		VARCHAR(100),
 	passwordHash 	VARCHAR(256) 	NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE User (
 	city 			VARCHAR(100),
 	state			VARCHAR(50),
 	memberSince 	TIMESTAMP		NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (userID)
+	PRIMARY KEY (userID)	
 );
 
 CREATE TABLE Tweet (

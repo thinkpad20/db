@@ -16,6 +16,7 @@ NUM_HASHTAGS = 1000
 NUM_MISC = 100
 NUM_FOLLOWS = 1500
 NUM_MESSAGES = 1000
+usernames = {}
 
 def rand_str(N, spaces = False):
 	global words
@@ -53,8 +54,15 @@ class User:
 	facebookURL = "fbURL"
 	tagline = "tgln"
 	def randomize(self):
-		global uid, locations
-		self.username = rand_str(10)
+		global uid, locations, usernames
+
+		# generate unique user name
+		username = rand_str(10)
+		while username in usernames:
+			username = rand_str(10)
+		self.username = username
+		usernames[self.username] = True
+
 		self.fullName = "FN" + rand_str(20)
 		self.userID = uid
 		uid += 1
