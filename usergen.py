@@ -38,7 +38,7 @@ def generateHashtags():
 	for key in hashtags.keys():
 		for tweetID in hashtags[key]:
 			f.write(str(tweetID) + '|' + key + '\n')
-			populateDB.write(ptext % ("hashtags.dat", "HashTag", "tweetID, content"))
+	populateDB.write(ptext % ("hashtags.dat", "HashTag", "tweetID, content"))
 
 
 def rand_str(N, spaces = False):
