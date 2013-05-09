@@ -7,8 +7,11 @@ CREATE TABLE User (
 	imageURL 		VARCHAR(200),
 	facebookURL		VARCHAR(200),
 	tagline 		VARCHAR(140),
+	city 			VARCHAR(100),
+	state			VARCHAR(50),
 	memberSince 	TIMESTAMP		NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (userID)
+	PRIMARY KEY (userID),
+	FOREIGN KEY (city, state) REFERENCES Location(city, state)
 );
 
 CREATE TABLE Tweet (
@@ -77,4 +80,10 @@ CREATE TABLE Message (
 	PRIMARY KEY (messageID),
 	FOREIGN KEY (senderID) REFERENCES User(userID),
 	FOREIGN KEY (receiverID) REFERENCES User(userID)
+);
+
+CREATE TABLE Location (
+	city VARCHAR(100)				NOT NULL,
+	state VARCHAR(50)				NOT NULL,
+	PRIMARY KEY (city, state)
 );
