@@ -7,3 +7,4 @@ DROP TABLE HashTag;
 DROP TABLE Message;
 DROP TABLE Tweet;
 DROP TABLE User;
+DROP TABLE Location;
