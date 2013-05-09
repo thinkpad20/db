@@ -10,12 +10,12 @@ tid = 1
 mid = 1
 NUM_CITIES = 10
 NUM_LOCATIONS = 20
-NUM_USERS = 50
-NUM_TWEETS = 150
-NUM_HASHTAGS = 10
-NUM_MISC = 15
-NUM_FOLLOWS = 20
-NUM_MESSAGES = 30
+NUM_USERS = 200
+NUM_TWEETS = 1000
+NUM_HASHTAGS = 100
+NUM_MISC = 100
+NUM_FOLLOWS = 200
+NUM_MESSAGES = 100
 
 def rand_str(N, spaces = False):
 	global words
@@ -54,13 +54,13 @@ class User:
 	tagline = "tgln"
 	def randomize(self):
 		global uid, locations
-		self.username = 'U' + rand_str(10)
+		self.username = rand_str(10)
 		self.fullName = "FN" + rand_str(20)
 		self.userID = uid
 		uid += 1
 		self.city, self.state = random.choice(locations)
 		self.passwordHash = "PWH" + rand_str(50)
-		self.email = "EM" + self.username[1:] + '@' + self.username[1:] + '.com'
+		self.email = self.username + '@' + self.username + '.com'
 		self.imageURL = "http://www.iURL.com/" + rand_str(10)
 		self.facebookURL = "http://www.facebook.com/" + self.username
 		self.tagline = "tgln" + rand_str(100)
@@ -111,7 +111,7 @@ class Message:
 		global uid, mid
 		self.messageID = mid
 		mid += 1
-		self.content = "content" + rand_str(100, True)
+		self.content = rand_str(100, True)
 		self.senderID = random.randrange(1, uid)
 		self.receiverID = random.randrange(1, uid)
 		while (self.senderID == self.receiverID):
