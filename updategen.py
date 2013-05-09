@@ -2,7 +2,7 @@ import random
 
 f = open("userupdate.sql", "w")
 
-updatetext = "UPDATE User SET age=%d sex='%s' where userID=%d;\n"
+updatetext = "UPDATE User SET age=%d, sex='%s' where userID=%d;\n"
 
 for i in range(2000):
 	userID = i+1
