@@ -18,6 +18,7 @@ NUM_FOLLOWS = 1500
 NUM_MESSAGES = 1000
 
 hashtags = {}
+mentions = {}
 usernames = {}
 def generateUsers(NUM_USERS):
 	f = open("users.dat", "w")
@@ -54,19 +55,27 @@ def rand_str(N, spaces = False):
 	return output
 
 def rand_tweet(tweetID):
-	global words
+	global words, usernames
 	output = random.choice(words)
 	l = len(output)
 	targetlen = random.randrange(20, 140)
 	while l < targetlen:
 		newWord = random.choice(words)
-		if random.choice(range(100)) == 0:
+		p = random.choice(range(100))
+		if p == 0:
 			# add a hashtag here
 			newWord = "#" + newWord
 			if newWord in hashtags:
 				hashtags[newWord] += [tweetID]
 			else:
 				hashtags[newWord] = [tweetID]
+		# else if p == 1:
+		# 	# add a mention
+		# 	newWord = "@" + random.choice(usernames.keys)
+		# 	if newWord in mentions:
+		# 		mentions[newWord] += [(tweetID, ]
+		# 	else:
+		# 		hashtags[newWord] = [tweetID]
 		output += newWord + " "
 		l = len(output)
 	output = output[:-1] + "."
