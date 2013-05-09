@@ -2,13 +2,13 @@ LOAD DATA
 LOCAL INFILE "users.dat"
 REPLACE INTO TABLE User
 FIELDS TERMINATED BY '|'
-(username, userID, fullName, passwordHash, email, imageURL, facebookURL, tagline);
+(username, fullName, passwordHash, email, imageURL, facebookURL, tagline);
 
 LOAD DATA
 LOCAL INFILE "tweets.dat"
 REPLACE INTO TABLE Tweet
 FIELDS TERMINATED BY '|'
-(tweetID, userID, content);
+(userID, content);
 
 LOAD DATA
 LOCAL INFILE "hashtags.dat"
@@ -50,5 +50,5 @@ LOAD DATA
 LOCAL INFILE "messages.dat"
 REPLACE INTO TABLE Message
 FIELDS TERMINATED BY '|'
-(messageID, senderID, receiverID, content);
+(senderID, receiverID, content);
 

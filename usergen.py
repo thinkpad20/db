@@ -5,12 +5,15 @@ ptext = "LOAD DATA\n" + "LOCAL INFILE \"%s\"\n" + \
 		"REPLACE INTO TABLE %s\n" + "FIELDS TERMINATED BY '|'\n" \
 		"(%s);\n\n"
 
-uid = 0
-tid = 0
-mid = 0
+uid = 1
+tid = 1
+mid = 1
 
 def rand_str(N):
 		return ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(N))
+
+# words = ["hi", "hello", "this", "is", "a", "tweet", "i", "like", "apples"]
+
 
 class User:
 	username = "U"
@@ -41,7 +44,7 @@ class Tweet:
 		global uid, tid
 		self.tweetID = tid
 		tid += 1
-		self.userID = random.randrange(uid)
+		self.userID = random.randrange(1, uid)
 		self.content = rand_str(random.randrange(140))
 
 class Hashtag:
@@ -49,7 +52,7 @@ class Hashtag:
 	content = "#content"
 	def randomize(self):
 		global tid
-		self.tweetID = random.randrange(tid)
+		self.tweetID = random.randrange(2, tid)
 		self.content = "#" + rand_str(15)
 	
 class Follows:
@@ -57,18 +60,18 @@ class Follows:
 	followee = 0
 	def randomize(self):
 		global uid
-		self.follower = random.randrange(uid)
-		self.followee = random.randrange(uid)
+		self.follower = random.randrange(1, uid)
+		self.followee = random.randrange(1, uid)
 		while (self.follower == self.followee):
-			self.followee = random.randrange(uid)
+			self.followee = random.randrange(1, uid)
 
 class RetweetsMentionsFavoritesCanSee:
 	userID = 0
 	tweetID = 0
 	def randomize(self):
 		global uid, tid
-		self.userID = random.randrange(uid)
-		self.tweetID = random.randrange(tid)
+		self.userID = random.randrange(1, uid)
+		self.tweetID = random.randrange(2, tid)
 
 class Message:
 	messageID = 0
@@ -80,10 +83,10 @@ class Message:
 		self.messageID = mid
 		mid += 1
 		self.content = "content" + rand_str(100)
-		self.senderID = random.randrange(uid)
-		self.receiverID = random.randrange(uid)
+		self.senderID = random.randrange(1, uid)
+		self.receiverID = random.randrange(1, uid)
 		while (self.senderID == self.receiverID):
-			self.senderID = random.randrange(uid)
+			self.senderID = random.randrange(1, uid)
 
 ##################
 # USERS
@@ -94,10 +97,10 @@ f = open("users.dat", "w")
 for i in range(0,10):
 	u = User()
 	u.randomize()
-	f.write(u.username + '|' + str(u.userID) + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
+	f.write(u.username + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
 			'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '\n')
 
-populateDB.write(ptext % ("users.dat", "User", "username, userID, fullName, " +
+populateDB.write(ptext % ("users.dat", "User", "username, fullName, " +
 								"passwordHash, email, imageURL, facebookURL, tagline"))
 
 ##################
@@ -109,9 +112,9 @@ f = open("tweets.dat", "w")
 for i in range(0,50):
 	t = Tweet()
 	t.randomize()
-	f.write(str(t.tweetID) + '|' + str(t.userID) + '|' + t.content + '\n')
+	f.write(str(t.userID) + '|' + t.content + '\n')
 
-populateDB.write(ptext % ("tweets.dat", "Tweet", "tweetID, userID, content"))
+populateDB.write(ptext % ("tweets.dat", "Tweet", "userID, content"))
 
 ##################
 # HASHTAGS
@@ -161,8 +164,8 @@ f = open("messages.dat", "w")
 for i in range(0,15):
 	fo = Message()
 	fo.randomize()
-	f.write(str(fo.messageID) + '|' + str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
-populateDB.write(ptext % ("messages.dat", "Message", "messageID, senderID, receiverID, content"))
+	f.write(str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
+populateDB.write(ptext % ("messages.dat", "Message", "senderID, receiverID, content"))
 
 
 
