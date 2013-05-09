@@ -1,8 +1,14 @@
 LOAD DATA
+LOCAL INFILE "locations.dat"
+REPLACE INTO TABLE Location
+FIELDS TERMINATED BY '|'
+(city, state);
+
+LOAD DATA
 LOCAL INFILE "users.dat"
 REPLACE INTO TABLE User
 FIELDS TERMINATED BY '|'
-(username, fullName, passwordHash, email, imageURL, facebookURL, tagline);
+(username, fullName, passwordHash, email, imageURL, facebookURL, tagline, city, state);
 
 LOAD DATA
 LOCAL INFILE "tweets.dat"

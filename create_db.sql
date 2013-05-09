@@ -11,7 +11,6 @@ CREATE TABLE User (
 	state			VARCHAR(50),
 	memberSince 	TIMESTAMP		NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY (userID),
-	FOREIGN KEY (city, state) REFERENCES Location(city, state)
 );
 
 CREATE TABLE Tweet (

@@ -8,11 +8,39 @@ ptext = "LOAD DATA\n" + "LOCAL INFILE \"%s\"\n" + \
 uid = 1
 tid = 1
 mid = 1
+NUM_CITIES = 10
+NUM_LOCATIONS = 20
+NUM_USERS = 50
+NUM_TWEETS = 150
+NUM_HASHTAGS = 10
+NUM_MISC = 15
+NUM_FOLLOWS = 20
+NUM_MESSAGES = 30
 
-def rand_str(N):
-		return ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(N))
+def rand_str(N, spaces = False):
+	global words
+	l = 0
+	output = ""
+	while l < N:
+		output += random.choice(words)
+		if spaces:
+			output += " "
+		l = len(output)
+	if spaces:
+		output = output[:-1] + "."
+	return output
 
-# words = ["hi", "hello", "this", "is", "a", "tweet", "i", "like", "apples"]
+words = []
+
+for letter in string.uppercase:
+	wordslist = [line.strip() for line in open("words/%s Words.csv" % letter)]
+	words = words + wordslist
+# for i in range(10):
+# 	print words[i]
+
+states = [line.strip() for line in open("words/states.txt")]
+cities = [random.choice(words).title() for i in range(NUM_CITIES)]
+locations = [("Somewhere", "Illinois")]
 
 
 class User:
@@ -25,11 +53,12 @@ class User:
 	facebookURL = "fbURL"
 	tagline = "tgln"
 	def randomize(self):
-		global uid
+		global uid, locations
 		self.username = 'U' + rand_str(10)
 		self.fullName = "FN" + rand_str(20)
 		self.userID = uid
 		uid += 1
+		self.city, self.state = random.choice(locations)
 		self.passwordHash = "PWH" + rand_str(50)
 		self.email = "EM" + self.username[1:] + '@' + self.username[1:] + '.com'
 		self.imageURL = "http://www.iURL.com/" + rand_str(10)
@@ -45,7 +74,7 @@ class Tweet:
 		self.tweetID = tid
 		tid += 1
 		self.userID = random.randrange(1, uid)
-		self.content = rand_str(random.randrange(140))
+		self.content = rand_str(random.randrange(140), True)
 
 class Hashtag:
 	tweetID = 0
@@ -82,96 +111,113 @@ class Message:
 		global uid, mid
 		self.messageID = mid
 		mid += 1
-		self.content = "content" + rand_str(100)
+		self.content = "content" + rand_str(100, True)
 		self.senderID = random.randrange(1, uid)
 		self.receiverID = random.randrange(1, uid)
 		while (self.senderID == self.receiverID):
 			self.senderID = random.randrange(1, uid)
 
-##################
-# USERS
-#####################
+class Location:
+	def __init__(self):
+		self.state = ""
+		self.city = ""
+	def randomize(self):
+		self.state = random.choice(states)
+		self.city = random.choice(cities)		
 
-f = open("users.dat", "w")
 
-for i in range(0,10):
-	u = User()
-	u.randomize()
-	f.write(u.username + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
-			'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '\n')
 
-populateDB.write(ptext % ("users.dat", "User", "username, fullName, " +
-								"passwordHash, email, imageURL, facebookURL, tagline"))
 
-##################
-# TWEETS
-#####################
-
-f = open("tweets.dat", "w")
-
-for i in range(0,50):
-	t = Tweet()
-	t.randomize()
-	f.write(str(t.userID) + '|' + t.content + '\n')
-
-populateDB.write(ptext % ("tweets.dat", "Tweet", "userID, content"))
-
-##################
-# HASHTAGS
-#####################
-
-f = open("hashtags.dat", "w")
-
-for i in range(0,10):
-	h = Hashtag()
-	h.randomize()
-	f.write(str(h.tweetID) + '|' + h.content + '\n')
-
-populateDB.write(ptext % ("hashtags.dat", "HashTag", "tweetID, content"))
-
-##################
-# FOLLOWS
-#####################
-
-f = open("follows.dat", "w")
-
-for i in range(0,15):
-	fo = Follows()
-	fo.randomize()
-	f.write(str(fo.follower) + '|' + str(fo.followee) + '\n')
-
-populateDB.write(ptext % ("follows.dat", "Follows", "follower, followee"))
-
-##################
-# Retweets, etc
-#####################
-
-schema = {"retweets.dat":"Retweets", "mentions.dat":"Mentions", "favorites.dat":"Favorites", "cansee.dat":"CanSee"}
-
-for filename in ["retweets.dat", "mentions.dat", "favorites.dat", "cansee.dat"]:
-	f = open(filename, "w")
-	for i in range(0,15):
-		fo = RetweetsMentionsFavoritesCanSee()
+def generateData():
+	global locations
+	f = open("locations.dat", "w")
+	for i in range(0,NUM_LOCATIONS):
+		fo = Location()
 		fo.randomize()
-		f.write(str(fo.tweetID) + '|' + str(fo.userID) + '\n')
-	populateDB.write(ptext % (filename, schema[filename], "tweetID, userID"))
+		f.write(fo.city + '|' + fo.state + '\n')
+		locations += [(fo.city, fo.state)]
+	populateDB.write(ptext % ("locations.dat", "Location", "city, state"))
 
-##################
-# Messages
-#####################
+	##################
+	# USERS
+	#####################
 
-f = open("messages.dat", "w")
-for i in range(0,15):
-	fo = Message()
-	fo.randomize()
-	f.write(str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
-populateDB.write(ptext % ("messages.dat", "Message", "senderID, receiverID, content"))
+	f = open("users.dat", "w")
 
+	for i in range(0,NUM_USERS):
+		u = User()
+		u.randomize()
+		f.write(u.username + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
+				'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '|' + u.city + '|' + u.state + '\n')
 
+	populateDB.write(ptext % ("users.dat", "User", "username, fullName, " +
+									"passwordHash, email, imageURL, facebookURL, tagline, city, state"))
 
+	##################
+	# TWEETS
+	#####################
 
+	f = open("tweets.dat", "w")
 
+	for i in range(0,NUM_TWEETS):
+		t = Tweet()
+		t.randomize()
+		f.write(str(t.userID) + '|' + t.content + '\n')
 
+	populateDB.write(ptext % ("tweets.dat", "Tweet", "userID, content"))
+
+	##################
+	# HASHTAGS
+	#####################
+
+	f = open("hashtags.dat", "w")
+
+	for i in range(0,NUM_HASHTAGS):
+		h = Hashtag()
+		h.randomize()
+		f.write(str(h.tweetID) + '|' + h.content + '\n')
+
+	populateDB.write(ptext % ("hashtags.dat", "HashTag", "tweetID, content"))
+
+	##################
+	# FOLLOWS
+	#####################
+
+	f = open("follows.dat", "w")
+
+	for i in range(0,NUM_FOLLOWS):
+		fo = Follows()
+		fo.randomize()
+		f.write(str(fo.follower) + '|' + str(fo.followee) + '\n')
+
+	populateDB.write(ptext % ("follows.dat", "Follows", "follower, followee"))
+
+	##################
+	# Retweets, etc
+	#####################
+
+	schema = {"retweets.dat":"Retweets", "mentions.dat":"Mentions", "favorites.dat":"Favorites", "cansee.dat":"CanSee"}
+
+	for filename in ["retweets.dat", "mentions.dat", "favorites.dat", "cansee.dat"]:
+		f = open(filename, "w")
+		for i in range(0,NUM_MISC):
+			fo = RetweetsMentionsFavoritesCanSee()
+			fo.randomize()
+			f.write(str(fo.tweetID) + '|' + str(fo.userID) + '\n')
+		populateDB.write(ptext % (filename, schema[filename], "tweetID, userID"))
+
+	##################
+	# Messages
+	#####################
+
+	f = open("messages.dat", "w")
+	for i in range(0,NUM_MESSAGES):
+		fo = Message()
+		fo.randomize()
+		f.write(str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
+	populateDB.write(ptext % ("messages.dat", "Message", "senderID, receiverID, content"))
+
+generateData()
 
 
 
