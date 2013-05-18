@@ -47,9 +47,10 @@ select u1.username, u2.username
 	from User u1
 	inner join User u2
 		on u1.userID <> u2.userID
-			and exists -- follows where u1 is followee intersect follows where u2 is followee
+			and exists (-- follows where u1 is followee intersect follows where u2 is followee
 				select * 
 					from Follows f1 
 					inner join Follows f2 
 					on f1.follower = f2.follower
-					where f1.followee = u1.userID and f2.followee = u2.userID;
+					where f1.followee = u1.userID and f2.followee = u2.userID
+				);
