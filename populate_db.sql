@@ -8,7 +8,7 @@ LOAD DATA
 LOCAL INFILE "users.dat"
 REPLACE INTO TABLE User
 FIELDS TERMINATED BY '|'
-(username, fullName, passwordHash, email, imageURL, facebookURL, tagline, city, state);
+(username, fullName, passwordHash, email, imageURL, facebookURL, tagline, city, state, sex, age);
 
 LOAD DATA
 LOCAL INFILE "tweets.dat"

@@ -27,11 +27,9 @@ def generateUsers(NUM_USERS):
 	for i in range(0,NUM_USERS):
 		u = User()
 		u.randomize()
-		f.write(u.username + '|' + u.fullName + '|' + u.passwordHash + '|' + u.email + \
-				'|' + u.imageURL + '|' + u.facebookURL + '|' + u.tagline + '|' + u.city + '|' + u.state + '\n')
+		f.write(u.itext())
 
-	populateDB.write(ptext % ("users.dat", "User", "username, fullName, " +
-									"passwordHash, email, imageURL, facebookURL, tagline, city, state"))
+	populateDB.write(ptext % ("users.dat", "User", User.ivars()))
 
 def generateHashtags():
 	f = open("hashtags.dat", "w")
@@ -104,6 +102,8 @@ class User:
 	imageURL = "iURL"
 	facebookURL = "fbURL"
 	tagline = "tgln"
+	age = 20
+	sex = 'Male'
 	def randomize(self):
 		global uid, locations, usernames
 
@@ -123,6 +123,19 @@ class User:
 		self.imageURL = "http://www.iURL.com/" + rand_str(10)
 		self.facebookURL = "http://www.facebook.com/" + self.username
 		self.tagline = "tgln" + rand_str(100)
+		self.age = random.randrange(15, 65)
+		self.sex = random.choice(["Male", "Female"])
+	def itext(self):
+		return "%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|%d\n" % (self.username, self.fullName, \
+													 self.passwordHash, self.email, \
+													 self.imageURL, self.facebookURL,\
+													 self.tagline, self.city, self.state, \
+													 self.sex, self.age)
+	@staticmethod
+	def ivars():
+		return "username, fullName, passwordHash, email, imageURL, " \
+			    "facebookURL, tagline, city, state, sex, age"
+
 
 class Tweet:
 	tweetID = 0
@@ -193,7 +206,6 @@ class TweetPoll:
 		self.nvotes = {}
 		for option in optionarr:
 			self.nvotes[option] = 0
-		print "created a poll:", optionarr
 	def addOption(self, optionText):
 		if optionText not in self.nvotes:
 			optionarr.append(optionText)
@@ -208,8 +220,9 @@ class TweetPoll:
 		txt = ""
 		for option in self.optionarr:
 			txt += "(%s###%s)" % (option, self.nvotes[option])
-		print "rendered text: ", txt
 		return txt
+	def itext(self):
+		return "%d|%d|%s\n" % (self.pollID, self.tweetID, self.renderText())
 	def parseText(self, text):
 		self.optionarr = []
 		self.nvotes = {}
@@ -322,7 +335,7 @@ def generateData():
 			tweetID = random.randrange(3, NUM_TWEETS - 3)
 		tweetsUsed[tweetID] = True
 		tp = TweetPoll(i, tweetID, opts)
-		f.write(str(tp.tweetID) + '|' + tp.renderText())
+		f.write(tp.itext())
 	populateDB.write(ptext % ("polls.dat", "Message", "tweetID, receiverID, content"))
 
 
