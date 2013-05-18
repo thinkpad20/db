@@ -188,7 +188,7 @@ class TweetPoll:
 	# the format of a pollOptionText is (<text>###<nvotes)
 	def __init__(self, pollID, tweetID, optionarr = []):
 		self.pollID = pollID
-		selt.tweetID = tweetID
+		self.tweetID = tweetID
 		self.optionarr = []
 		self.nvotes = {}
 		for option in optionarr:
@@ -315,12 +315,12 @@ def generateData():
 		opts = []
 		for j in range(numopts):
 			opts.append(rand_str(20, True))
-		tweetID = rand(3, NUM_TWEETS - 3)
+		tweetID = random.randrange(3, NUM_TWEETS - 3)
 		while tweetID in tweetsUsed:
-			tweetID = rand(3, NUM_TWEETS - 3)
+			tweetID = random.randrange(3, NUM_TWEETS - 3)
 		tweetsUsed[tweetID] = True
 		tp = TweetPoll(i, tweetID, opts)
-		f.write(str(tp.tweetID) + '|' tp.renderText())
+		f.write(str(tp.tweetID) + '|' + tp.renderText())
 	populateDB.write(ptext % ("messages.dat", "Message", "tweetID, receiverID, content"))
 
 
