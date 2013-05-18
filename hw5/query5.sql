@@ -51,4 +51,5 @@ select u1.username, u2.username
 				select * 
 					from Follows f1 
 					inner join Follows f2 
-					where f1.followee = u1.userID and f2.followee = u2.userID and f1.follower = f2.follower;
+					on f1.follower = f2.follower
+					where f1.followee = u1.userID and f2.followee = u2.userID;
