@@ -5,7 +5,7 @@ DROP TABLE Favorites;
 DROP TABLE Follows;
 DROP TABLE HashTag;
 DROP TABLE Message;
+DROP TABLE Poll;
 DROP TABLE Tweet;
 DROP TABLE User;
 DROP TABLE Location;
-DROP TABLE Poll;
