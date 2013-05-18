@@ -56,11 +56,19 @@ select u1.username, u2.username
 				);
 
 -- all tweets mentioning some username baldysmokiest
-select content 
-	from Tweet t
-	natural join Mentions m
-	where t.userID in (
-		select u.userID 
-		from User u
-		--where u.username = "baldysmokiest"
-		);
+-- select content 
+-- 	from Tweet t
+-- 	natural join Mentions m
+-- 	where t.userID in (
+-- 		select u.userID 
+-- 		from User u
+-- 		where u.username = "baldysmokiest"
+-- 		);
+
+select username 
+	from User
+	where u.userID in (
+		select t.userID
+		from Tweet t
+		natural join Mentions m
+	);
