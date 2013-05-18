@@ -70,5 +70,6 @@ select username
 	where u.userID in (
 		select m.userID
 		from Tweet t
-		natural join Mentions m
+		join Mentions m
+		using (tweetID)
 	);
