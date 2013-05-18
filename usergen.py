@@ -189,10 +189,11 @@ class TweetPoll:
 	def __init__(self, pollID, tweetID, optionarr = []):
 		self.pollID = pollID
 		self.tweetID = tweetID
-		self.optionarr = []
+		self.optionarr = optionarr
 		self.nvotes = {}
 		for option in optionarr:
 			self.nvotes[option] = 0
+		print "created a poll:", optionarr
 	def addOption(self, optionText):
 		if optionText not in self.nvotes:
 			optionarr.append(optionText)
@@ -206,7 +207,8 @@ class TweetPoll:
 	def renderText(self):
 		txt = ""
 		for option in self.optionarr:
-			txt += "(%s###%s)" % (option, nvotes[option])
+			txt += "(%s###%s)" % (option, self.nvotes[option])
+		print "rendered text: ", txt
 		return txt
 	def parseText(self, text):
 		self.optionarr = []
@@ -321,7 +323,7 @@ def generateData():
 		tweetsUsed[tweetID] = True
 		tp = TweetPoll(i, tweetID, opts)
 		f.write(str(tp.tweetID) + '|' + tp.renderText())
-	populateDB.write(ptext % ("messages.dat", "Message", "tweetID, receiverID, content"))
+	populateDB.write(ptext % ("polls.dat", "Message", "tweetID, receiverID, content"))
 
 
 

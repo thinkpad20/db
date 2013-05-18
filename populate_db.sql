@@ -59,7 +59,7 @@ FIELDS TERMINATED BY '|'
 (senderID, receiverID, content);
 
 LOAD DATA
-LOCAL INFILE "messages.dat"
+LOCAL INFILE "polls.dat"
 REPLACE INTO TABLE Message
 FIELDS TERMINATED BY '|'
 (tweetID, receiverID, content);
