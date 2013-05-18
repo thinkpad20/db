@@ -66,9 +66,9 @@ select u1.username, u2.username
 -- 		);
 
 select username 
-	from User
+	from User u
 	where u.userID in (
-		select t.userID
+		select m.userID
 		from Tweet t
 		natural join Mentions m
 	);
