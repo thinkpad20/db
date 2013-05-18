@@ -9,6 +9,8 @@ CREATE TABLE User (
 	tagline 		VARCHAR(140),
 	city 			VARCHAR(100),
 	state			VARCHAR(50),
+	sex				VARCHAR(10),
+	age				INTEGER,
 	memberSince 	TIMESTAMP		NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY (userID)	
 );
