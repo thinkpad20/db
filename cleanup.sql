@@ -8,3 +8,4 @@ DROP TABLE Message;
 DROP TABLE Tweet;
 DROP TABLE User;
 DROP TABLE Location;
+DROP TABLE Poll;
