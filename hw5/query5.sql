@@ -54,6 +54,7 @@ select u1.username, u2.username
 					on f1.follower = f2.follower
 					where f1.followee = u1.userID and f2.followee = u2.userID
 				);
+
 -- all users who have been mentioned in a tweet
 select username 
 	from User u
@@ -67,8 +68,9 @@ select username
 -- all tweets mentioning some username sennachies
 select content 
 	from Tweet t
-	natural join Mentions m
-	where t.userID in (
+	join Mentions m
+	using (tweetID)
+	where m.userID in (
 		select u.userID 
 		from User u
 		where u.username = "sennachies"
