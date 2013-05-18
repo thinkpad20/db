@@ -16,6 +16,7 @@ NUM_HASHTAGS = 1000
 NUM_MISC = 100
 NUM_FOLLOWS = 1500
 NUM_MESSAGES = 1000
+NUM_POLLS = 300
 
 hashtags = {}
 mentions = {}
@@ -183,6 +184,55 @@ class Location:
 		self.state = random.choice(states)
 		self.city = random.choice(cities)		
 
+class TweetPoll:
+	# the format of a pollOptionText is (<text>###<nvotes)
+	def __init__(self, pollID, tweetID, optionarr = []):
+		self.pollID = pollID
+		selt.tweetID = tweetID
+		self.optionarr = []
+		self.nvotes = {}
+		for option in optionarr:
+			self.nvotes[option] = 0
+	def addOption(self, optionText):
+		if optionText not in self.nvotes:
+			optionarr.append(optionText)
+			self.nvotes[optionText] = 0
+	def getNumVotes(self, optionText):
+		if optionText in self.nvotes:
+			return self.nvotes[optionText]
+	def vote(self, optionText):
+		if optionText in self.nvotes:
+			self.nvotes[optionText] += 1
+	def renderText(self):
+		txt = ""
+		for option in self.optionarr:
+			txt += "(%s###%s)" % (option, nvotes[option])
+		return txt
+	def parseText(self, text):
+		self.optionarr = []
+		self.nvotes = {}
+		optionnum, nvotes, i = 0, 0, 0
+		while i < len(text):
+			optionnumtext = ""
+			option = ""
+			numtext = ""
+			if text[i] == '(':
+				i += 1
+
+				while text[i:i+3] != '###':
+					option += text[i]
+					i += 1
+				i += 3
+
+				while text[i] != ')':
+					numtext += text[i]
+					i += 1
+				nvotes = int(numtext)
+
+			optionarr.append(option)
+			nvotes[option] = nvotes
+			i += 1
+		
 
 
 
@@ -255,9 +305,24 @@ def generateData():
 		f.write(str(fo.senderID) + '|' + str(fo.receiverID) + '|' + fo.content + '\n')
 	populateDB.write(ptext % ("messages.dat", "Message", "senderID, receiverID, content"))
 
+	##################
+	# Polls
+	##################
+	tweetsUsed = {}
+	f = open("polls.dat", "w")
+	for i in range(0, NUM_POLLS):
+		numopts = random.randrange(4) + 2
+		opts = []
+		for j in range(numopts):
+			opts.append(rand_str(20, True))
+		tweetID = rand(3, NUM_TWEETS - 3)
+		while tweetID in tweetsUsed:
+			tweetID = rand(3, NUM_TWEETS - 3)
+		tweetsUsed[tweetID] = True
+		tp = TweetPoll(i, tweetID, opts)
+		f.write(str(tp.tweetID) + '|' tp.renderText())
+	populateDB.write(ptext % ("messages.dat", "Message", "tweetID, receiverID, content"))
+
+
+
 generateData()
-
-
-
-
-

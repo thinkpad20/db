@@ -86,3 +86,11 @@ CREATE TABLE Location (
 	state VARCHAR(50)				NOT NULL,
 	PRIMARY KEY (city, state)
 );
+
+CREATE TABLE Poll (
+	pollID INTEGER NOT NULL AUTO_INCREMENT,
+	tweetID INTEGER NOT NULL,
+	pollOptionText VARCHAR(300),
+	PRIMARY KEY (pollID),
+	FOREIGN KEY (tweetID) REFERENCES Tweet(tweetID)
+);
