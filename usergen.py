@@ -336,7 +336,7 @@ def generateData():
 		tweetsUsed[tweetID] = True
 		tp = TweetPoll(i, tweetID, opts)
 		f.write(tp.itext())
-	populateDB.write(ptext % ("polls.dat", "Message", "tweetID, receiverID, content"))
+	populateDB.write(ptext % ("polls.dat", "Message", "pollID, tweetID, pollOptionText"))
 
 
 
