@@ -60,7 +60,7 @@ FIELDS TERMINATED BY '|'
 
 LOAD DATA
 LOCAL INFILE "polls.dat"
-REPLACE INTO TABLE Message
+REPLACE INTO TABLE Poll
 FIELDS TERMINATED BY '|'
-(tweetID, receiverID, content);
+(pollID, tweetID, pollOptionText);
 
