@@ -54,3 +54,13 @@ select u1.username, u2.username
 					on f1.follower = f2.follower
 					where f1.followee = u1.userID and f2.followee = u2.userID
 				);
+
+-- all tweets mentioning some username baldysmokiest
+select content 
+	from Tweet t
+	natural join Mention m
+	where t.userID in (
+		select u.userID 
+		from User u
+		where u.username = "baldysmokiest"
+		);
